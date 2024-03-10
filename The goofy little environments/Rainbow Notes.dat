@@ -1,0 +1,405 @@
+{
+	"version": "1.0.0",
+	"name": "Rainbow Notes",
+	"author": "rollylindenshnizzer",
+	"environmentVersion": "1.0.0",
+	"environmentName": "TimbalandEnvironment",
+	"description": "very bad",
+	"features": {
+	},
+	"environment": [
+		{
+			"id": "TimbalandLogo",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "GameCore\\.\\[[0-9]+\\]PairLaserTrackLaneRing\\(Clone\\)\\.\\[[34]\\]Laser[LR]F$",
+			"lookupMethod": "Regex",
+			"scale": [
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"id": "Buildings",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "TimbalandEnvironment.[0]Environment.[30]GradientBackground",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "TimbalandEnvironment.[0]Environment",
+			"lookupMethod": "Exact"
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 7
+				}
+			},
+			"position": [
+				20.8998,
+				0,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 8
+				}
+			},
+			"position": [
+				-20.8998,
+				0,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 9
+				}
+			},
+			"position": [
+				15.899999999999999,
+				-7.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 10
+				}
+			},
+			"position": [
+				-15.899999999999999,
+				-7.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 11
+				}
+			},
+			"position": [
+				10.9002,
+				-15,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 12
+				}
+			},
+			"position": [
+				-10.9002,
+				-15,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 13
+				}
+			},
+			"position": [
+				5.8998,
+				-22.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 14
+				}
+			},
+			"position": [
+				-5.8998,
+				-22.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 15
+				}
+			},
+			"position": [
+				25.9002,
+				7.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 15
+				}
+			},
+			"position": [
+				-25.9002,
+				7.5,
+				21.764999999999998
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 16
+				}
+			},
+			"position": [
+				30.9,
+				15,
+				19.7652
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 17
+				}
+			},
+			"position": [
+				-30.9,
+				15,
+				19.7652
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 18
+				}
+			},
+			"position": [
+				35.8998,
+				22.5,
+				17.7648
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		{
+			"id": "TimbalandEnvironment\\.\\[[\\d]\\]Environment\\.\\[[\\d]+\\]GlowLineL$",
+			"lookupMethod": "Regex",
+			"active": true,
+			"duplicate": 1,
+			"components": {
+				"ILightWithId": {
+					"lightID": 18
+				}
+			},
+			"position": [
+				-35.8998,
+				22.5,
+				17.7648
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+	],
+	"materials": {}
+}
