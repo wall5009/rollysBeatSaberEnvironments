@@ -1,0 +1,204 @@
+{
+	"version": "1.0.0",
+	"name": "Fresh!",
+	"author": "rollylindenshnizzer",
+	"environmentVersion": "0.5.1",
+	"environmentName": "DefaultEnvironment",
+	"description": "First actually decent environment?",
+	"features": {},
+	"environment": [
+		{
+			"id": "Building",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "BackColumns",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "Spectrograms",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "TrackMirror",
+			"lookupMethod": "Contains",
+			"duplicate": 1,
+			"scale": [
+				200,
+				0,
+				200
+			],
+			"position": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": "BasicGameHUB",
+			"lookupMethod": "Contains",
+			"active": false
+		},
+		{
+			"id": "BigSmokePS",
+			"lookupMethod": "Contains",
+			"position": [
+				0,
+				-69420,
+				0
+			]
+		},
+		{
+			"id": "SmallTrackLaneRing",
+			"lookupMethod": "Contains",
+			"position": [
+				0,
+				-69420,
+				0
+			]
+		},
+		{
+			"id": "BigTrackLaneRing",
+			"lookupMethod": "Contains"
+		},
+		{
+			"id": "TrackConstruction",
+			"lookupMethod": "Contains",
+			"position": [
+				0,
+				-69420,
+				0
+			]
+		},
+		{
+			"id": "[28]DoubleColorLaserL",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				15
+			]
+		},
+		{
+			"id": "[27]DoubleColorLaserR",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				15
+			]
+		},
+		{
+			"id": "DoubleColorLaserL (1)",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				15
+			]
+		},
+		{
+			"id": "DoubleColorLaserR (1)",
+			"lookupMethod": "Contains",
+			"position": [
+				-5,
+				0,
+				15
+			]
+		},
+		{
+			"id": "DoubleColorLaserL (2)",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				50
+			]
+		},
+		{
+			"id": "DoubleColorLaserR (2)",
+			"lookupMethod": "Contains",
+			"position": [
+				-5,
+				0,
+				50
+			]
+		},
+		{
+			"id": "DoubleColorLaserL (3)",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				25
+			]
+		},
+		{
+			"id": "DoubleColorLaserR (3)",
+			"lookupMethod": "Contains",
+			"position": [
+				-5,
+				0,
+				25
+			]
+		},
+		{
+			"id": "DoubleColorLaserL (4)",
+			"lookupMethod": "Contains",
+			"position": [
+				5,
+				0,
+				30
+			]
+		},
+		{
+			"id": "DoubleColorLaserR (4)",
+			"lookupMethod": "Contains",
+			"position": [
+				-5,
+				0,
+				30
+			]
+		},
+		{
+			"id": "Front.+NeonTube( \\(\\d\\))?$",
+			"lookupMethod": "Regex",
+			"scale": [
+				2,
+				2,
+				2
+			]
+		},
+		{
+			"id": "NeonTubeBothSidesDirectional",
+			"lookupMethod": "Contains",
+			"scale": [
+				0.1,
+				35,
+				2
+			]
+		},
+		{
+			"id": "NarrowGameHUD",
+			"lookupMethod": "EndsWith",
+			"position": [
+				0,
+				0.3,
+				2.5
+			],
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0
+			]
+		},
+	],
+}
